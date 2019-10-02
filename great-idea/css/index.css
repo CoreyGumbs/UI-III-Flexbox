@@ -124,27 +124,21 @@ h1, h2, h3, h4, h5 {
  }
 
 .header{
-	margin-top: 100px;
-}
-
-.cta{
-	position: relative;
 	width: 100%;
-	height: 600px;
-	padding: 0;	
-	margin: 0px auto;
-	
+	margin: 120px 0 100px 0;
+	display: flex;
 }
 
 .cta-box{
-	position: relative;
 	width: 50%;
-
+	justify-content: center;
+	align-items: center;
 }
 
 .cta-header-box{
-	top: 140px;
-	left: 0;
+	display: flex;
+	flex-flow: column nowrap;
+
 }
 
  .cta-header{
@@ -153,10 +147,9 @@ h1, h2, h3, h4, h5 {
 	padding: 0;
 	font-size: 85px;
 	text-align: center;
-	vertical-align: middle;
 }
 
-.cta a{
+.cta-box a{
 	margin: 0 30%;
 	padding: 10px 50px;
 	color: black;
@@ -164,7 +157,7 @@ h1, h2, h3, h4, h5 {
 	border: 1px solid black;
 }
 
-.cta a:hover{
+.cta-box a:hover{
 	color: white;
 	background-color: black;
 }
