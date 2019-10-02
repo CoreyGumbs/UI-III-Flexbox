@@ -280,12 +280,12 @@ h1, h2, h3, h4, h5 {
 }
 
 .serivce-box a{
-	padding: 10px 50px;
+	padding: 10px 30px;
 	border: 1px solid black;
 	text-decoration: none;
 	color: black;
 	background-color: white;
-	border-radius: 5px;
+	border-radius: 3px;
 }
 
 .serivce-box a:hover{
@@ -304,7 +304,25 @@ h1, h2, h3, h4, h5 {
 }
 
 .services-col{
-	width: 50%;
+	width: 49%;
+	padding: 50px 0 100px;
+}
+
+.services-about-txt{
 	margin: 50px 0;
-	border: 1px solid black;
+	line-height: 1.5;
+}
+
+.section-services-list{
+	list-style-type: square;
+	margin-left: 16px;
+}
+
+.service-list-item{
+	margin: 20px 0;
+}
+
+.services-info-img{
+	width: 100%;
+	height: 100%;
 }
