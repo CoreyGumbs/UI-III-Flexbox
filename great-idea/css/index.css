@@ -65,16 +65,14 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container{
-	position: relative;
 	width: 60%;
 	margin: 0 auto;
 	font-family: 'Work Sans', sans-serif;
-	padding: 0;
 	display: flex;
 	flex-flow: row wrap;
 }
 
-
+/* NAV*/
 
 .navigation{
 	position: fixed;
@@ -161,20 +159,16 @@ h1, h2, h3, h4, h5 {
 	color: white;
 	background-color: black;
 }
-.cta-img-box{
-	top: -275px;
-	left: 504px;
-}
 
 .cta-img{
 	width: 100%;
 	margin: 0 auto;
 	padding: 0;
-
 }
 
 .section-container{
 	width: 100%;
+	
 }
 
 .section-border{
@@ -182,14 +176,27 @@ h1, h2, h3, h4, h5 {
 }
 
 .section-top {
-	column-count: 2;
+	width: 100%;
 	border-top: 2px solid black;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.section-col-top{
+	width: 45%;
 }
 
 .section-bottom{
-	column-count: 3;
+	display: flex;
+	justify-content: space-between;
 	border-bottom: 2px solid black;
 }
+
+.section-col-bottom{
+	width: 35%;
+}
+
 .section-col-header{
 	font-size: 24px;
 }
@@ -218,13 +225,12 @@ h1, h2, h3, h4, h5 {
 	padding: 0;
 	background-color: #000;
 	color: white;
+	display: flex;
+	align-items: center;
 }
 
 .copyright{
-	position: relative;
-	top: 50px;
 	margin: 0 auto;
 	width: 200px;
 	padding: 0;
-	text-align: center;
 }
