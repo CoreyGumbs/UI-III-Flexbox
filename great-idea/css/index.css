@@ -92,6 +92,7 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
+	align-content: center;
 }
 
 .nav-links{
@@ -116,7 +117,11 @@ h1, h2, h3, h4, h5 {
 	color: #137a86;
 }
 
-
+ .logo{
+	 width: 183px;
+	 height: 36px;
+	 
+ }
 
 .header{
 	margin-top: 100px;
