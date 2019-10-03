@@ -81,24 +81,24 @@ h1, h2, h3, h4, h5 {
 	background-color: #2f578c;
 	z-index: 999;
 	display: flex;
-	
 }
 
 .nav-container{
-	width: 59%;
+	width: 60%;
 	margin: 0 auto;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
 	align-content: center;
+	
 }
 
 .nav-links{
-
 	width: 70%;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
+	
 }
 
 .navigation a{
@@ -179,7 +179,6 @@ h1, h2, h3, h4, h5 {
 	border-top: 2px solid black;
 	display: flex;
 	justify-content: space-between;
-	
 }
 
 .section-col-top{
@@ -249,6 +248,7 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	flex-direction: column;
 	border-bottom: 2px solid black;
+
 }
 
 .service-header{
